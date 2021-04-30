@@ -14,8 +14,8 @@ public class Main {
 		String[] courses2 = {"Angular - The Complete Guide (2021 Edition)","React Native - The Practical Guide [2021 Edition]"};
 
 		
-		Instructor instructor1 = new Instructor(4, "Engin", "Demiroğ", "engin@gmail.com", 86, 456, 15,courses1);
-		Instructor instructor2 = new Instructor(5, "Maximilian", "Schwarzmüller", "maximilian@gmail.com", 0, 0, 0,courses2);
+		Instructor instructor1 = new Instructor(4, "Engin", "Demiroğ", "engin@gmail.com", 456, 15,courses1);
+		Instructor instructor2 = new Instructor(5, "Maximilian", "Schwarzmüller", "maximilian@gmail.com", 502, 12,courses2);
 		
 		
 		UserManager userManager = new UserManager();

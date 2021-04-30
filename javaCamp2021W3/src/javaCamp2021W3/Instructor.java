@@ -2,26 +2,20 @@ package javaCamp2021W3;
 
 public class Instructor extends User {
 
-	private double score;
 	private int numberOfStudents;
 	private int yearsOfExperience;
 	private String[] courses;
 	
-	public Instructor(int id, String name, String lastname, String email, double score, int numberOfStudents,
+	public Instructor(int id, String name, String lastname, String email, int numberOfStudents,
 			int yearsOfExperience,String[] courses) {
 		super(id, name, lastname, email);
-		this.score = score;
 		this.numberOfStudents = numberOfStudents;
 		this.yearsOfExperience = yearsOfExperience;
 		this.courses = courses;
 	}
 
 	public double getScore() {
-		return score;
-	}
-
-	public void setScore(double score) {
-		this.score = score;
+		return (int)(Math.random() * 100);
 	}
 
 	public int getNumberOfStudents() {
