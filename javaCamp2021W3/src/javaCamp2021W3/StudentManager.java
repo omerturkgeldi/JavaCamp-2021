@@ -10,9 +10,9 @@ public class StudentManager extends UserManager{
 
 	public void info(Student student) {
 		super.info(student);
-		System.out.println("Score: " + student.getSchool() + "\n"+
-				"Total students: " +student.getDepartment() + "\n"+
-				"Experience: " + student.getGrade());
+		System.out.println("School: " + student.getSchool() + "\n"+
+				"Department: " +student.getDepartment() + "\n"+
+				"Grade: " + student.getGrade());
 		System.out.print("************************");
 	}
 	
