@@ -15,7 +15,7 @@ public class Main {
 	public static void main(String[] args) {
 
 
-		BaseCustomerManager customerManager = new NeroCustomerManager(new coffeeShopHW.Adapters.MernisServiceAdapter());
+		BaseCustomerManager customerManager = new NeroCustomerManager(new MernisServiceAdapter());
 		customerManager.save(new Customer(1, "Gazi Mustafa Kemal", "Atatürk", new Date(1881, 07, 01), "10000000146"));
 		
 	}
