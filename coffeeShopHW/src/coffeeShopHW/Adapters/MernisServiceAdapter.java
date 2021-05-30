@@ -1,7 +1,4 @@
-package Adapters;
-
- 
-import java.rmi.RemoteException;
+package coffeeShopHW.Adapters;
 
 import coffeeShopHW.Abstract.CustomerCheckService;
 import coffeeShopHW.Entities.Customer;
