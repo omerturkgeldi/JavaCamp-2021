@@ -16,8 +16,7 @@ public class Main {
 
 
 		BaseCustomerManager customerManager = new NeroCustomerManager(new MernisServiceAdapter());
-	//	customerManager.save(new Customer(1, "Tugay", "Türkgeldi", new Date(1994, 05, 29), "55261087284"));
-		customerManager.save(new Customer(1, "Ömer", "Türkgeldi", new Date(1999, 05, 29), "55258087358"));
+		customerManager.save(new Customer(1, "Ad", "Soyad", new Date(1955, 01, 01), "10000000046"));
 	}
 
 }
